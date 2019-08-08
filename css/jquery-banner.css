@@ -1,0 +1,82 @@
+/*! 作者：李召曦（勤奋的迷糊君） */
+/* 带jquery-banner前缀的id和类名由开发者提供 */
+#banner{/* 执行对象 */
+	width:1024px;
+	height:360px;
+	margin:0 auto;
+	position:relative;
+}
+
+.jquery-bannerImg{/* 本页中为 ul 框架 */
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+}
+.jquery-bannerImg-images{ /*本页中为 li 图片盒子 */
+	width:100%;
+	position:absolute;
+}
+.jquery-bannerImg-images img{
+	width:100%;
+
+}
+.jquery-bannerBtn{ /* 左右控件的外层盒子 */
+	position: relative;
+	top:50%;
+	display: none;
+}
+#banner:hover .jquery-bannerBtn{
+	display: block;
+}
+ul.jquery-bannerBtn>li{
+	width:36px;
+	height:36px;
+	line-height: 36px;
+	text-align: center;
+	border-radius:50%;
+	color:#fff;
+	font-size:18px;
+	background-color:#000;
+	position: absolute;
+	margin:-18px 0 0 20px;
+	cursor:pointer;
+	display: none;
+	filter:alpha(opacity=30);
+	-moz-opacity:.3;
+	-webkit-opacity:.3;
+	-o-opacity:.3;
+	opacity:.3;
+}
+li.jquery-bannerBtn-left{}/* 左控件 */
+li.jquery-bannerBtn-right{ /* 右控件 */
+	right:20px;
+}
+ul.jquery-bannerBtn>li{
+	display:block;
+}
+ul.jquery-bannerBtn>li:hover{
+	filter:alpha(opacity=60);
+	-moz-opacity:.6;
+	-webkit-opacity:.6;
+	-o-opacity:.6;
+	opacity:.6;
+}
+ul.jquery-bannerPoint{ /* 焦点按钮盒子 */
+	overflow: hidden;
+	margin:0 auto;
+	position: relative;
+	top: 320px;
+}
+li.jquery-bannerPoint-point{ /* 焦点按钮 */
+	margin:0 4px;
+	width:16px;
+	height:16px;
+	float:left;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #ccc
+}
+li.jquery-bannerPoint-hover{ /* 焦点按钮变色 */
+	background: #ff6464
+}

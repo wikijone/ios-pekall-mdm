@@ -7,20 +7,69 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>京联云IOS设备管控客户端</title>
+    <link rel="stylesheet" href="css/example.css">
+    <style>
+        .banner-index {
+            width: 960px;
+            height: 540px;
+        }
+
+        .release-ver {
+            color: darkblue;
+            font-size: large;
+        }
+
+        .release-ver a {
+            color: darkblue;
+            font-size: medium;
+        }
+        h1 {
+            color: white;
+        }
+        footer {
+            margin-left: 0px;
+            margin-right: 0px;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
-<body bgcolor="#40e0d0">
+<body bgcolor="#5f9ea0">
 <div align="center">
-    <div>京联云iOS企业设备管理客户端</div>
     <div>
-        <img src="1@2x.png"/>
-        <img src="2@2x.png"/>
-        <img src="3@2x.png"/>
-        <img src="4@2x.png"/>
+        <h1>京联云iOS企业设备管理客户端</h1>
     </div>
-    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/wikijone/ios-pekall-mdm/master/2084.plist">
-        <img src="icon.57x57.png"/>
-        <div>点击安装</div>
-    </a>
+    <section class="banner-index">
+        <ul>
+            <li><img src="1@2x.png"></li>
+            <li><img src="2@2x.png"></li>
+            <li><img src="3@2x.png"></li>
+            <li><img src="4@2x.png"></li>
+        </ul>
+    </section>
+    <div class="release-ver">
+        <h2>点击下面版本安装</h2>
+        <ol>
+            <li>
+                <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/wikijone/ios-pekall-mdm/master/2084.plist">
+                    3.3.39-2084
+                </a>
+            </li>
+        </ol>
+    </div>
 </div>
+<footer>
+    <p>Created By @Pekall </p>
+    <p>www.pekall.com 2019/8</p>
+</footer>
 </body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/jquery.terseBanner.min.js"></script>
+<script src="js/example.js"></script>
+<script>
+    $('.banner-index').terseBanner({
+        arrow: true
+    });
+</script>
 </html>
