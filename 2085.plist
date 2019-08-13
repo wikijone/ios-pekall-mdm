@@ -16,12 +16,16 @@
                     <dict>
                         <key>kind</key>
                         <string>display-image</string>
+                        <key>needs-shine</key>
+                        <true/>
                         <key>url</key>
                         <string>https://raw.githubusercontent.com/wikijone/ios-pekall-mdm/master/icon.57x57.png</string>
                     </dict>
                     <dict>
                         <key>kind</key>
                         <string>full-size-image</string>
+                        <key>needs-shine</key>
+                        <true/>
                         <key>url</key>
                         <string>https://raw.githubusercontent.com/wikijone/ios-pekall-mdm/master/icon.512.512.png</string>
                     </dict>
@@ -29,7 +33,7 @@
                 <key>metadata</key>
                 <dict>
                     <key>bundle-identifier</key>
-                    <string>com.pekall.iosmdm</string>
+                    <string>com.pekall.ios.mdm</string>
                     <key>bundle-version</key>
                     <string>3.3.40</string>
                     <key>kind</key>
